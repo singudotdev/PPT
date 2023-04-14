@@ -1,17 +1,17 @@
 import shodan
 
 
-def ShodanInfo():
+def ShodanSearchHost():
     try:
         ShodanApi = shodan.Shodan(input("Insert your API key: "))
 
-        results = ShodanApi.info()
+        results = ShodanApi.host(input("Target: "))
 
-        for info in results:
-            print("%s: %s" % (info, results[info]))
+        for result in results:
+            print("%s: %s" % (result, results[result]))
     except shodan.APIError as e:
         print("Error: %s" % e)
 
 
 if __name__ == "__main__":
-    ShodanInfo()
+    ShodanSearchHost()
