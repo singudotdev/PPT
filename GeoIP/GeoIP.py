@@ -3,7 +3,7 @@ import geoip2.database
 db = 'GeoLite2City.mmdb'
 lector = geoip2.database.Reader(db)
 
-ip_address = '8.8.8.8'
+ip_address = input("Insert target: ")
 
 response = lector.city(ip_address)
 
