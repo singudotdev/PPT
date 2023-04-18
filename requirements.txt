@@ -1,4 +1,6 @@
-dnspython
+dnspython~=2.3.0
 python-whois
-geoip2
-shodan
+geoip2~=4.6.0
+shodan~=1.28.0
+pypdf2~=3.0.1
+Pillow~=9.5.0
