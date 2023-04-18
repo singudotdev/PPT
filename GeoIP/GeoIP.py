@@ -1,7 +1,6 @@
 import geoip2.database
 
-db = 'GeoLite2City.mmdb'
-lector = geoip2.database.Reader(db)
+lector = geoip2.database.Reader('GeoLite2City.mmdb')
 
 ip_address = input("Insert target: ")
 
