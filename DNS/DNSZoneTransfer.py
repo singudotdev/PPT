@@ -1,4 +1,3 @@
-import dns.query
 import dns.zone
 
 target_ip = input("Insert target: ")
