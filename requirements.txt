@@ -6,3 +6,4 @@ pypdf2~=3.0.1
 Pillow~=9.5.0
 scapy~=2.5.0
 pysmb~=1.2.9.1
+Twisted~=22.10.0
