@@ -1,6 +1,4 @@
-import os, sys
 import crypt
-import codecs
 import argparse
 
 
@@ -19,3 +17,22 @@ def bruteForce(cryptPass, user):
 
             if cryptWord == cryptPass:
                 print(f"Found password for user {user}: {passwd}")
+
+
+if __name__ == "__main__":
+    parse = argparse.ArgumentParser(description="Simple bruteforcer for /etc/shadow")
+    parse.add_argument("-f", dest='shadowFile', help="Shadow file location")
+    argus = parse.parse_args()
+
+    if argus.shadowFile is None:
+        parse.print_help()
+        exit()
+
+    else:
+        passFile = open(argus.shadowFile, "r")
+        for line in passFile.readlines():
+            line = line.replace("\n", "").split(":")
+            if not line[1] in ["x", "*", "!"]:
+                user = line[0]
+                cryptPass = line[1]
+                bruteForce(cryptPass, user)
