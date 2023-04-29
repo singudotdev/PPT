@@ -74,13 +74,6 @@ Install all the libraries
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add all types of TCP Scans excluding NULL and FIN
-- [x] Add Metadata extraction
-- [X] Add Shodan interaction
-- [ ] Add Network Segments attacks
-- [ ] Add OWASP Top 10
-
-
 See the [open issues](https://github.com/singuuu/PPT/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
