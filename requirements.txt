@@ -1,7 +1,7 @@
 dnspython~=2.3.0
 python-whois
-geoip2~=4.6.0
-shodan~=1.28.0
+geoip2==4.7.0
+shodan==1.29.1
 pypdf2~=3.0.1
 Pillow~=9.5.0
 scapy~=2.5.0
