@@ -2,6 +2,6 @@ import whois
 
 target = input("Insert target: ")
 
-whois = whois.whois(target)
+whoisResponse = whois.whois(target)
 
-print(whois)
+print(whoisResponse)
