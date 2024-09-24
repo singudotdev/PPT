@@ -10,9 +10,9 @@
     <a href="https://singu.dev/"><strong>Web Page »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/singuuu/PPT/issues">Report Bug</a>
+    <a href="https://github.com/singudotdev/PPT/issues">Report Bug</a>
     ·
-    <a href="https://github.com/singuuu/PPT/issues">Request Feature</a>
+    <a href="https://github.com/singudotdev/PPT/issues">Request Feature</a>
   </p>
 </div>
 
@@ -74,7 +74,7 @@ Install all the libraries
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/singuuu/PPT/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/singudotdev/PPT/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,6 +112,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Jorge Llopis - jota@singu.dev
 
-Project Link: [https://github.com/singuuu/PPT](https://github.com/singuuu/PPT)
+Project Link: [https://github.com/singudotdev/PPT](https://github.com/singuuu/PPT)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
