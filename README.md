@@ -110,7 +110,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Jorge Llopis - jota@singu.dev
+Jorge Llopis - contact@singu.dev
 
 Project Link: [https://github.com/singudotdev/PPT](https://github.com/singuuu/PPT)
 
